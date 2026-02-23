@@ -33,4 +33,4 @@ Identify new components, interfaces, boundaries, and integration points. No busi
 ## Acceptance Criteria
 - The architectural approach is aligned with the user, with all assumptions clarified.
 - Key decisions and trade-offs have been captured with user alignment.
-- **The final output has been successfully written and saved to `docs/tickets/<ticket_number>/2-tech-plan.md`**
+- **The final output has been successfully written and saved to `docs/tickets/<ticket_number>/3-tech-plan.md`**
