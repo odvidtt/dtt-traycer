@@ -1,0 +1,11 @@
+{
+  "name": "dtt-community-plugins",
+  "owner": { "name": "DTT Developer" },
+  "plugins": [
+    {
+      "name": "dtt-traycer",
+      "source": "./plugins/dtt-traycer",
+      "description": "Traycer.ai spec-driven development orchestrator."
+    }
+  ]
+}

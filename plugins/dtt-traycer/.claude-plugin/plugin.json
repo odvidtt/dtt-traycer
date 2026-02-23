@@ -1,0 +1,5 @@
+{
+  "name": "dtt-traycer",
+  "description": "Execute a strict 4-phase Spec-Driven Development pipeline.",
+  "version": "1.0.0"
+}
