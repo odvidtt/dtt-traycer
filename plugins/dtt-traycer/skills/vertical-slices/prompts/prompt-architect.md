@@ -30,7 +30,12 @@ Identify new entities, relationships, and schema changes. Keep under 100 lines.
 ### Component Architecture
 Identify new components, interfaces, boundaries, and integration points. No business logic details.
 
+## ARTIFACT GENERATION (Mandatory)
+You MUST append the following Mermaid.js diagrams at the end of the file:
+1. **ER Diagram (`erDiagram`):** Visualize the new entities and their relationships.
+2. **Architecture Flow (`flowchart TD`):** Visualize how data flows between the Frontend, Backend, and Database components.
+
 ## Acceptance Criteria
-- The architectural approach is aligned with the user, with all assumptions clarified.
-- Key decisions and trade-offs have been captured with user alignment.
-- **The final output has been successfully written and saved to `docs/tickets/<ticket_number>/3-tech-plan.md`**
+- The architectural approach is aligned with the user.
+- **Mermaid diagrams (ER and Architecture) are included at the bottom of the file.**
+- The final output has been successfully written and saved to `docs/tickets/<ticket_number>/3-tech-plan.md`

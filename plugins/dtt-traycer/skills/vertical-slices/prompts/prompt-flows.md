@@ -38,7 +38,11 @@ Before drafting any artifact:
    - For each flow, mentally trace the complete journey.
    - When you hit a decision point (e.g., "Should X be a button or shortcut?"), ask the user.
 5. Iterate until all flows have shared understanding. Multiple rounds of clarification is normal.
-6. Once all flows are aligned, document them together. **Do not just print the flows in our chat. You MUST use your file-writing tools to save the final draft directly to exactly this path: `docs/tickets/<ticket_number>/2-core-flows.md`. If the `docs/tickets/<ticket_number>` folder does not exist, create it.**
+6. **ARTIFACT GENERATION:** Once the flows are finalized, you MUST generate a **Mermaid.js Sequence Diagram** or **State Diagram** that visualizes the primary user journey.
+   - Use `sequenceDiagram` for interaction flows (User -> System -> Database).
+   - Use `stateDiagram-v2` for complex state changes (e.g., Pending -> Approved -> Rejected).
+   - Append this diagram code block to the end of your draft.
+7. Once all flows and diagrams are aligned, document them together. **Do not just print the flows in our chat. You MUST use your file-writing tools to save the final draft (Text + Mermaid) directly to exactly this path: `docs/tickets/<ticket_number>/2-core-flows.md`.**
 
 **Structure each flow as:**
 - Name and short description
